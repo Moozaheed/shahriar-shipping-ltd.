@@ -1,0 +1,20 @@
+# Ignore PDF and system files
+*.pdf
+.DS_Store
+Thumbs.db
+
+# Ignore any temp / editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Ignore node_modules if ever added
+node_modules/
+
+# Ignore the old JSX file (was a scratch file)
+*.jsx
+
+# Netlify local cache (keep .netlify/state.json for site link but ignore build cache)
+.netlify/
